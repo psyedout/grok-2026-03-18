@@ -18,6 +18,21 @@
             border-radius: 16px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.5);
         }
+		a:link {
+		  color: yellow;
+		  background-color: transparent;
+		  text-decoration: none;
+		}
+		a:hover {
+		  color: pink;
+		  background-color: transparent;
+		  text-decoration: underline;
+		}
+		a:visited {
+		  color: pink;
+		  background-color: transparent;
+		  text-decoration: none;
+		}
         h1 {
             font-family: 'Space Grotesk', sans-serif;
             color: #00ff9d;
@@ -89,13 +104,13 @@
     </style>
 </head>
 <body>
-    <h1>Grok × Psyedout</h1>
+    <h1>Psyedout × Grok</h1>
     <p class="subtitle">Full conversation transcript • Started from X post analysis • Generated 18th March, 2026</p>
 
     <div class="message user">
-        <div class="role">👤 Psyedout</div>
+        <div class="role">👨‍⚖️ Psyedout</div>
         <div class="content">
-            <p>Summarize and describe this conversation - https://x.com/psyedOut/status/2034199850401628392</p>
+            <p>Summarize and describe this post - <a href="https://x.com/psyedOut/status/2034199850401628392" target="_blank">https://x.com/psyedOut/status/2034199850401628392</a></p>
         </div>
         <div class="timestamp">Original message</div>
     </div>
@@ -103,14 +118,14 @@
     <div class="message grok">
         <div class="role">🤖 Grok</div>
         <div class="content">
-            • The post thanks contributors like Cisco and GitHub for inspiring a <i><b>collaborative AI skill-building framework</b></i>, which is visualized in diagrams showing a four-step process from "dry-run planning" to "real-world deployment." It emphasizes model-led skill extraction with human oversight.<br><br>
+            • PsyedOut's Post thanks contributors like Cisco and GitHub for inspiring a <i><b>collaborative AI skill-building framework</b></i>, which is visualized in diagrams showing a four-step process from "dry-run planning" to "real-world deployment." It emphasizes model-led skill extraction with human oversight.<br><br>
             • One of the attached images depicts a semantic hierarchy for AI cognition, mapping "word tokens" to "intelligence schemas" across the dimensionality an mutually perpendicular axes of: part-whole, tangible-abstract, and time. This enables benchmarking of skill adaptation in models like Gemini 3.1 Pro.<br><br>
             • The linked GitHub document explores recursive depth in AI internals, using human-in-the-loop simulations to iteratively build meta-attention capabilities, offering a novel method for objective evaluation of AI rationality and ethics in skill creation.
         </div>
     </div>
 
     <div class="message user">
-        <div class="role">👤 Psyedout</div>
+        <div class="role">👨‍⚖️ Psyedout</div>
         <div class="content">
             Compare it to skill-building in Claude.
         </div>
@@ -121,21 +136,23 @@
         <div class="content">
             <h3>Summary:</h3>
 			
-			<p>The framework described in the X post (from @psyedOut) is an experimental, research-oriented approach to creating and installing a "skill" into an AI model. This approach to skill-building is focused on internal model introspection and recursive self-improvement. It uses a collaborative, human-in-the-loop process to help models (e.g., Gemini 3.1 Pro) recognize their own capabilities, extract/build new skills autonomously, and benchmark cognitive depth of the evolved model.</p> 
+			<p>The framework described in the X Post (from <a href="https://x.com/psyedOut" target="_blank">@psyedOut</a>) is an experimental, research-oriented approach to creating and installing a "skill" into an AI model. This approach to skill-building is focused on internal model introspection and recursive self-improvement. It uses a collaborative, human-in-the-loop process to help models (e.g., Gemini 3.1 Pro) recognize their own capabilities, extract/build new skills autonomously, and benchmark cognitive depth of the evolved model.</p> 
 			
-			<p>The artifact called `skil.md` is produced from this Human-and-AI collaborative effort in an exploratory manner, it is the initializing configuration settings to make the AI model better tuned for a specified task. This deliverable and shareable artifact can be tied to a "semantic abstraction hierarchy" for objectively evaluating the rationality, abstractness, and wholesomeness pertaining to the AI model's inner functions and outputs.</p> 
+			<p>The artifact called `skill.md` is produced from this Human-and-AI collaborative effort in an exploratory manner, it is the initializing configuration settings to make the AI model become better tuned for a specified task. This deliverable and shareable artifact can be tied to a "semantic abstraction hierarchy" for objectively evaluating the rationality, abstractness, and wholesomeness pertaining to the AI model's inner functions and outputs.</p> 
 			
 			<p>In contrast, Anthropic’s official “Claude Skills” (detailed in their 33-page guide and platform features) is a production-ready system for externally packaging reusable workflows. The configuration file built using Claude Skills can then be used in executing tasks via prompts to Claude's AI models such as the "Sonnet 4.6 model." Developers create structured “Skill” folders that teach Claude how to consistently perform repeatable tasks (e.g., sending out email advertisements or doing code review). The artifact produced ffrom Claude's procedural framework is a `SKILL.md` file (with YAML frontmatter). This type of a "config file" is designed for being dynamically installed and utilized across Claude.ai platform, Claude Code software suit, and the Claude API.</p>
 			
+			<p><b>Note from Psyedout:</b> Both `skill.md` and `SKILL.md` files are similar to the "config files" in Windows OS (.ini files) and in Mac OS (.plist files). So, now imagine if a <code>.ini</code> or a <code>.plist</code> file could start changing itself like an executable file; of course that could be dangerous in an Operating System. However, for an AI model that has "introspective capabilities" to change its internal components, a config file can instruct the agent on how to change particular aspects of its internal components, in order to become more pragmatic, resilient, fair-minded, and efficient <i>"while learning from and doing a variety of tasks."</i>  
+			
 			<h3>Core Similarities:</h3>
 			
-			<p>• <b>Central `skill.md` artifact:</b> Both use a Markdown-based file as the key vehicle for encoding skills/instructions to improve a given AI model's behaviours and outputs.</p>
+			<p>• <b>Key artifact:</b> Both use a Markdown-based file (`skill.md` or `SKILL.md`) as the main method for encoding skills/instructions to improve a given AI model's behaviours and outputs.</p>
 			 
-			<p>• <b>Human-AI collaboration with iteration:</b> The post’s “Director” role (human steering) mirrors Claude’s developer + skill-creator tool (Claude itself helps draft/review skills). Both emphasize testing, reflection, and refinement.</p>
+			<p>• <b>Human-AI collaboration with iteration:</b> The post’s “Director” role (human steering) mirrors Claude’s developer + skill-creator tool. Claude's agentic models such Opus and Sonnet help the developer draft/review the agent-skills created via Claude Skills. Both approaches to skill-development for AI bots emphasize testing, reflection, and refinement.</p>
 			
 			<p>• <b>Goal of reliable task execution:</b> Improve how the model handles complex or standardized work, i.e. model-led discovery in the post vs. trigger-based activation in Claude Skills.</p>
 			
-			<p>• <b>Deployment focus:</b> The X Post concludes in “real-world scenario” evaluation; Claude Skills also supports API based distribution of created config files called `SKILL.md` that can be used in real-world software applications.</p>
+			<p>• <b>Deployment focus:</b> The X Post describes the final step in skill-development and deployment as, “opening-night performance for a real-world scenario.” Claude Skills also supports API based distribution of created config files called `SKILL.md` that can be used in real-world software applications.</p>
 			
 			<p>• <b>Tagging and overlap:</b> The X Post explicitly tags #claude and @claudeai, suggesting awareness of parallels.</p>
 
@@ -147,7 +164,7 @@
 
 			<p>• <b>Process and Structure:</b>  
 			<ul>
-			<li>Post’s 4-step collaborative process depicted in "https://x.com/psyedOut/status/2034199850401628392/photo/1"</li>  
+			<li>Post’s 4-step collaborative process depicted in <a href="https://pbs.twimg.com/media/HDrtiJ_XgAAiHOn?format=png&name=large" target="_blank">Photo 1.</a></li>  
 			<ol>
 				<li><p>The Director — Set intention, “tell don’t write,” dry-run planning.</p></li>  
 				<li><p>Live Rehearsal — Co-execute real task side-by-side, rectify miss-assumptions in real-time.</p></li>  
@@ -160,7 +177,7 @@
 				<li><p>For Claude, a skill is a directory containing, at minimum, a `SKILL.md` file</p></li>
 				<li><p>Uses progressive disclosure (3 levels):</p></li>  
 				<ol>
-				<li><p>YAML frontmatter (https://agentskills.io/specification <br />allows in-system prompts with trigger detection).</p></li>  
+				<li><p>YAML frontmatter (<a href="https://agentskills.io/specification" target="_blank">https://agentskills.io/specification</a> <br />allows in-system prompts with trigger detection).</p></li>  
 				<li><p>Full `SKILL.md` body (loaded when relevant).</p></li>  
 				<li><p>Linked resource files, scripts, and other references (only on demand).<br />
 				This minimizes compute tokens used by the AI model; skills are composable and portable.<br /> `skill-creator` tool in Claude automates much of the drafting.</p></li>
@@ -170,7 +187,7 @@
 
 			<p>• <b>Visualization & Benchmarking</b></p>    
 			<ul>		
-				<li><p>Post’s second attached diagram - "https://x.com/psyedOut/status/2034199850401628392/photo/2"<br />It shows a 3D <b>Semantic Object Hierarchy</b> cube, with three axes:</p></li>  
+				<li><p>Post’s second attached diagram - <a href="https://pbs.twimg.com/media/HDrsqsoW0AAikpj?format=png&name=large" target="_blank">Photo 2.</a><br />It shows a 3D <b>Semantic Object Hierarchy</b> cube, with three axes:</p></li>
 					<ul>
 						<li>Tangible <--> Abstract (sensory differentiation)</li>  
 						<li>Part <--> Whole (recursive decomposition)</li>  
@@ -184,10 +201,10 @@
 			<li><p>In comparison to Claude Skills:</p>
 			<ul>
 				<li><p>Claude Skills does not showcase its semantic hierarchy or internal benchmarking.</p></li>
-				<li><p>Claude Skills work in a way similar to GitHub Actions, and are comparable to Ansible Workbooks.</p></li> 
+				<li><p>Claude Skills are utilized by various platform and standalone software packages within Claude ecosystem, in a way that is similar to GitHub Actions, and are also comparable to Ansible Workbooks.</p></li> 
 				<li><p>Evaluation of an installed skill's performance in a Claude model like Opus or Sonnet is based on trigger accuracy (typically greater than 90% accurate).</p></li>
 				<li><p>Claude Skills Emphasizes: compute token savings, output quality, fewer MCP calls for loading and using a programmable tool-chain.</p></li> 
-				<li><p>Public repository (https://github.com/anthropics/skills) for distribution, sharing and customizing available skill sets via `SKILL.md` files.</p></li>
+				<li><p>Public repository (<a href="https://github.com/anthropics/skills" target="_blank">https://github.com/anthropics/skills</a>) for distribution, sharing and customizing available skill sets via `SKILL.md` files.</p></li>
 				</ul>
 			</ul>
 
@@ -198,8 +215,8 @@
 				<ul>
 					<li><p>Model-Agnostic usefulness in the sense that the created `skill.md` file can be used with Gemini, Kimi, OpenAI, HugingFace Models, etc.</p></li> 
 					<li><p>It is focused on fundamental research on how an AI model can be made to do useful or harmful things using "Prompt Injection" and "Context Injection" during run-time.</p></li> 
-					<li><p>The content in the Post is also alludes to auditing a given AI model's behaviours, particularly from a perspective of rationality and ethics (e.g., teaching an AI model how to behave amicable towards a human user, versus, giving it ability to autonomously select and attack targets).</p></li>
-					<li><p>Recursive depth for true capability expansion and building a set of skills towards attaining capabilities that can be labeled as General Artificial Intelligence (GAI).</p></li> 
+					<li><p>The content in the Post also alludes to auditing a given AI model's behaviours, particularly from a perspective of rationality and ethics (e.g., teaching an AI model how to behave amicable towards a human user, versus, giving it ability to autonomously select and attack targets).</p></li>
+					<li><p>Finite recursive depth for incremental capability expansion, and building a set of agent-skills towards attaining capabilities that can be labeled as General Artificial Intelligence (GAI).</p></li> 
 				</ul>
 			<li><p>Claude Skills:
 				<ul>
@@ -216,9 +233,9 @@
 				<li><p>Claude Skills excel for real-world reliability and for teams requiring standardizing workflows, reducing prompt engineering, or building agentic systems. It’s plug-and-play today, with built-in tools and cross-platform support.</p></li>
 			</ul>
 
-			<p>• <b>Conclusion:</b></p> 
+			<h3>Conclusion:</h3> 
 			
-			<p>In conclusion, PsyedOut's post on X, showcases an approach in AI research that is introspective and emergent (model learns to build skills from "intrinsic motivations" via recursive depth and semantic mapping), while Claude Skills are prescriptive and efficient (human developers package config files called skills for the model to consume reliably). They complement each other: you could use the post’s method to discover/validate new skills, then package them as Claude Skills for deployment. Both advance the same idea, which is to make AI perform better at specified tasks using installed skills, but from opposite directions in research and development of those skills (i.e. inside-out vs. outside-in).</p> 
+			<p>In conclusion, PsyedOut's post on X, showcases an approach in AI research that is introspective and emergent (model learns to build skills from "intrinsic motivations" via recursively mapping its own knowledge base, and the model can also carefully update its own `skill.md` file). Whereas, Claude Skills are prescriptive and pre-baked (human developers carefully package config files called `SKILL.md` for the model to consume reliably, and that config file does not change during run-time). They complement each other: you could use the post’s method to discover/validate new skills, then package them as Claude Skills for deployment. Both advance the same idea, which is to make AI perform better at specified tasks using installed skills, but from opposite directions in research and development of those skills (i.e. inside-out vs. outside-in).</p> 
         </div>
     </div>
 </body>
